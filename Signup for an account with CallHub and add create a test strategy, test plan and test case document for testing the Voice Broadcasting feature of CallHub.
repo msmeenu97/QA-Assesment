@@ -1,0 +1,62 @@
+Test Plan
+
+Introduction- To provide an overview of the test plan with goal;s and objectives
+
+Test Items - To test the voice broadcasting feature of Call-hub with user, by logging in to the site
+
+Deliverables-   . Test plan
+		. Test Cases
+		. Defect logs/reports of the tests
+
+Estimation - 	The overall feature with manual and automated test will be taking an overall average of 18-20 		man hours. COmplete Test report- 8-10 man-hours (Estimated)
+Test Deliverables= 
+
+		Test deliverables provided before testing phase.
+
+		1.Test plans document.
+		2. Test cases documents
+		3.Test Design specifications.
+
+
+
+Items to be Tested/Description - 1. USer creates an account on the site, and after logging , can create a new voice broadcast . The user should be able to create the same, everytime s/he clicks on the create tab
+2. Verify that the voice is audible, and the person is able to record it properly.
+3. Verify that the recorded message plays only when the call is answered
+4. Verify that if the call is nto answered, no message is broadcasted/played/paused
+5. Verify user is able to start/stop/pause the recorded statement/message
+6. Verify that the user is able to customize message that is to be played on the answering machine
+7. Verify user is able to schedule the message depending on the user preferences
+8. Verfiy the user is able to select the phone contacts, to which the message is to be broadcasted
+9. Test that the user is able to select the frequency,call duration,time between retries, and maximum retry count
+10 Test that the user will be able to specify the caller id of the contact, and well as its own
+11. Test that if the maximum retry is a negative number, the time between retry should be discarded. 
+12. Test that the daily start/stop time for voice broadcasting should be specified in a valid format
+13. Test that user is able to set the campanign and operational hours
+14. test that the user should be able to cancel the entered data at any point of time
+15. Test that unless the user has finished the entire cycle, the changes should not be discarded.
+16. Verify that if the user has selected a transfer message/key,the message should be broadcasted in the form of specific key pair.
+17. Test that the contacts should be able to respond to the calls/messages that have been broadcasted
+18. Verfiy the user is able to generate reports and verify them as per the call records
+19. 
+	
+
+
+Test Strategy -
+	1. Test Approach- * Roles/responsibilities of each member.
+	* Types of testing that will be performed eg- unit,functional, regression, etc
+	* Defect management cycle- to decsribe where the new defect should n=be logged and how. To 	effectively use this, JIRA will be a better suitable tool
+	* Test Environment- Test environment setup should outline information about a number of environments 				and required setup for each environment. Would be prefarable to use Dev and QA as 		separate environments, and Production environemnt for release 
+	* Testing Tools- Overview of the testing tools that will be used throughout the testing phase eg. 		Eclipse/Selenium for regression, Jmeter for performance etc
+	* TAsk distribution- The feature will be equally distributed in task terms between each of the 	members, who will be preparing the test cases,and executing them, The test cases will be tagged under 	names of smoke/regression/unit/ Test status- Passed/failed/Deferred/Duplicate/discarded
+
+	
+Review and Approvals - The entire test plan/starategy document will be reviewd by the project loead/test 	manager, and after successful approval and through analysis, the plan will be carried out   
+
+
+
+Test Results/reports-
+		1. Defect Report
+		2. Installation/ Test procedures guidelines
+		3. Release Notes
+
+ 
